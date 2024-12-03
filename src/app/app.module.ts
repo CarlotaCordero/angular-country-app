@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { ByCapitalPageComponent } from './coutries/pages/by-capital-page/by-capital-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ByCapitalPageComponent
   ],
   imports: [
     BrowserModule,
